@@ -34,14 +34,34 @@ body {
 }
 
 #POPU{
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
-               0 0 10px rgba(51, 255, 0, 0.6), 
-               0 0 15px rgba(255, 255, 255, 0.4); 
+  margin-top: 5px; /* Ajusta este valor para subir el texto */
+  text-shadow: 0 0 5px rgb(165, 138, 255), 
+               0 0 10px rgba(117, 57, 167, 0.816), 
+               0 0 15px rgba(255, 255, 255, 0.689); 
   font-size: 38px;
-  margin-left: 15px; /* Elimina márgenes adicionales */
-  margin-top: -50px; /* Ajusta este valor para subir el texto */
- 
+  font-family: "Bungee Spice";
+  
 }
+
+#tiljuegos{
+  font-family: "Silkscreen";
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+               0 0 10px rgba(255, 255, 255, 0.6), 
+               0 0 15px rgba(255, 255, 255, 0.4);
+  margin-top: 18px; /* Ajusta este valor para subir el texto */
+  color: white;
+  font-size: 23px ;
+}
+
+#img1{
+  margin-top: 25px; /* Espacio entre la imagen y el texto */
+  margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+  width: 70%;
+  border-radius: 7%; /* Hace que la imagen sea circular */
+  box-shadow: 0 8px 16px rgba(217, 0, 255, 0.7); /* Aumenta la sombra al pasar el cursor */
+}
+
+
 
 
 #colonav {
