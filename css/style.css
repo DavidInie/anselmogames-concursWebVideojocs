@@ -1,5 +1,57 @@
-body{
+body {
     color:red;
-    font-family: "Bungee Spice" "Rethink Sans";
-    background-image: (../img/juegos-de-dibujos-animados-y8oavf5j1zkl912t.jpg);
+    font-family: "Bungee Spice";
+
+    text-align: center;
+  }
+
+  /* Bungee Spice */
+.header{
+    padding: 20px;
+    background-color: black;
+    background-size: cover;             
+    background-position: center;
+    margin: 0px;
+  }
+
+#logoansel{
+  width: 15%;
+  height: auto;
+  display: flex; /* Alinea los elementos en fila */
+  align-items: center; /* Centra verticalmente el logo y el texto */
+  justify-content: center; /* Centra horizontalmente el contenedor */
+  gap: 10px; /* Espacio entre el logo y el texto */
 }
+
+#anse{
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+               0 0 10px rgba(51, 255, 0, 0.6), 
+               0 0 15px rgba(255, 255, 255, 0.4); 
+  font-size: 38px;
+  margin-left: 15px; /* Elimina márgenes adicionales */
+  margin-top: -50px; /* Ajusta este valor para subir el texto */
+ 
+}
+
+
+#colonav {
+  background-color: black !important; /* Fuerza el fondo negro */
+  margin-left: 15px; /* Elimina márgenes adicionales */
+  margin-top: 19px ; /* Ajusta este valor para subir el texto */
+  
+}
+
+.header2{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3) url(../img/game-console-6603120_1280.jpg);
+    background-size: cover;             
+    background-position: center;
+    margin-top: 0px;
+    font-family: "Rethink Sans";
+    color: rgb(0, 30, 255);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+  }
