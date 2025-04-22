@@ -5,7 +5,6 @@ body {
     text-align: center;
   }
 
-  /* Bungee Spice */
 .header{
     padding: 20px;
     background-color: black;
@@ -35,8 +34,8 @@ body {
 
 #POPU{
   margin-top: 5px; /* Ajusta este valor para subir el texto */
-  text-shadow: 0 0 5px rgb(165, 138, 255), 
-               0 0 10px rgba(117, 57, 167, 0.816), 
+  text-shadow: 0 0 5px rgb(200, 0, 255), 
+               0 0 10px rgba(255, 255, 255, 0.816), 
                0 0 15px rgba(255, 255, 255, 0.689); 
   font-size: 38px;
   font-family: "Bungee Spice";
@@ -53,14 +52,19 @@ body {
   font-size: 23px ;
 }
 
-#img1{
+
+#img1 {
   margin-top: 25px; /* Espacio entre la imagen y el texto */
   margin-bottom: 20px; /* Espacio entre la imagen y el texto */
   width: 70%;
   border-radius: 7%; /* Hace que la imagen sea circular */
-  box-shadow: 0 8px 16px rgba(217, 0, 255, 0.7); /* Aumenta la sombra al pasar el cursor */
+  box-shadow: 0 8px 16px rgba(217, 0, 255, 0.7); /* Sombra inicial */
+  transition: transform 0.3s ease; /* Transición suave para el efecto */
 }
 
+#img1:hover {
+  transform: scale(1.2); /* Aumenta el tamaño de la imagen al pasar el cursor */
+}
 
 
 
