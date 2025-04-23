@@ -38,15 +38,16 @@ body {
     
   }
 
-  /* body {
+body {
     margin: 0;
     height: 100vh;
     background-image: url('ruta/a/tu-gif.gif');
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
-  } */
-.container {
+  } 
+
+/* .container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -59,7 +60,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
-}
+} */
 
 
 .main-content {
@@ -163,7 +164,7 @@ button.paypal {
     margin-right: 0px;
 }
 
-@media (max-width: 700px) {
+ @media (max-width: 700px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -177,7 +178,7 @@ button.paypal {
     }
 
     .main-image {
-        width: 80%; /* Reduce el tamaño de la imagen */
+        width: 80%; 
         height: auto;
     }
 
@@ -198,12 +199,12 @@ button.paypal {
     }
 
     .vendor-logo {
-        width: 50%; /* Ajusta el tamaño del logo */
+        width: 50%; 
         height: auto;
     }
 
     .price button {
-        width: 80%; /* Botones más pequeños */
+        width: 80%; 
         margin: 5px 0;
     }
 
@@ -211,28 +212,28 @@ button.paypal {
         text-align: justify;    
     }
     .video-container {
-        width: 100%; /* Asegura que el video ocupe todo el ancho disponible */
-        height: auto; /* Mantiene la proporción del video */
-        margin: 10px 0; /* Agrega un margen para separar el video de otros elementos */
+        width: 100%;
+        height: auto; 
+        margin: 10px 0;
     }
 
     .video-container iframe {
-        width: 100%; /* Ajusta el iframe del video al ancho del contenedor */
-        height: 200px; /* Ajusta la altura del video para pantallas pequeñas */
+        width: 100%; 
+        height: 200px;
     }
     .main-content {
         display: flex;
-        flex-direction: column; /* Cambia la dirección a columna */
-        align-items: center; /* Centra los elementos */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .video-container {
-        margin-top: 20px; /* Agrega espacio entre el texto y el video */
+        margin-top: 20px; 
     }
     .video-container iframe {
-        width: 100%; /* Ajusta el iframe al ancho del contenedor */
-        height: 380px; /* Incrementa la altura para evitar cortes */
+        width: 100%; 
+        height: 380px; 
     }
-}
+} 
 
 

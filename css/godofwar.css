@@ -39,23 +39,13 @@ body {
     margin-top: 19px ; /* Ajusta este valor para subir el texto */
     
   }
-  /* .container {  
-    
-    height: 100vh;
-    width: 100vh;
-    background-image: url('../img/217179.gif');
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-
-} */
-
+ 
 .fondo{
     font-family:"Pixelify Sans";
     background-image:url('../img/217179.gif');
     background-size: cover;             
     background-position: center;               
-    height: 90vh; 
+    height: 107.5vh; 
      /* .desenfoque {
     position: absolute;
     top: 0;
@@ -71,22 +61,122 @@ body {
     color:white;
 }
 .main-image {
-    width: 50%;
-    height: 20%;
+    width: 55%;
+    height: 30%;
     border-radius: 8px;
     margin: 20px 0;
 }
 
 .desc {
-    margin-top: 20px;
+    margin-top: 2px;
     color: #ffffff;
 }
 .sidebar {
-    width: 28%;
+    width: 65%;
     background-color: #fff;
-    height: 400px;
+    height: 50%;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(43, 255, 0);
+    margin-top: 10%;
+    font-size: 20px;
 }
 
+.rating {
+  font-size: 18px;
+  color: #ffaa00;
+}
+
+#titu{
+  color: white;
+  font-size: 53px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+               0 0 10px rgba(51, 255, 0, 0.6), 
+               0 0 15px rgba(255, 255, 255, 0.4); 
+}
+
+.vendor-box {
+  text-align: center;
+}
+
+.vendor-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+  .video-container{
+    margin-top: 6px;
+    margin-left: -12px;
+    margin-bottom: 0px;
+    margin-right: 81px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button.paypal {
+    background-color: #ffc439;
+    color: #000;
+}
+
+.fondond{
+  font-family:"Pixelify Sans";
+  background-image:url('../img/NFS_Legends_gif.gif');
+  background-size: cover;             
+  background-position: center;               
+  height: 107.5vh; 
+   /* .desenfoque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3); 
+} */
+}
+
+.fondogta{
+  font-family:"Pixelify Sans";
+  background-image:url('../img/5.gif');
+  background-size: cover;             
+  background-position: center;               
+  height: 107.5vh; 
+   /* .desenfoque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3); 
+} */
+}
+
+.fondolast{
+  font-family:"Pixelify Sans";
+  background-image:url('../img/z0hfcqb1.gif');
+  background-size: cover;             
+  background-position: center;               
+  height: 107.5vh; 
+   /* .desenfoque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3); 
+} */
+}
