@@ -89,3 +89,13 @@ body {
     height: 100%;
     backdrop-filter: blur(2px);
   }
+
+  #tiljuegos2{
+    font-family: "Silkscreen";
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 
+                 0 0 10px rgba(255, 255, 255, 0.6), 
+                 0 0 15px rgba(255, 255, 255, 0.4);
+    margin-top: 18px; /* Ajusta este valor para subir el texto */
+    color: rgb(0, 0, 0);
+    font-size: 23px ;
+  }
