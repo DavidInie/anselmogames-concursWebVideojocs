@@ -130,8 +130,12 @@ body {
   #img4{
     margin-top: 25px; /* Espacio entre la imagen y el texto */
     margin-bottom: 20px; /* Espacio entre la imagen y el texto */
-    width: 100%;
+    width: 80%;
     border-radius: 7%; /* Hace que la imagen sea circular */
     box-shadow: 0 8px 16px rgba(217, 0, 255, 0.7); /* Sombra inicial */
     transition: transform 0.3s ease; /* Transición suave para el efecto */
+  }
+
+  #fot{
+    font-family: "Arial";
   }

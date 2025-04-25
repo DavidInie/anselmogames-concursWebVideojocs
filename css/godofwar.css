@@ -79,7 +79,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgb(43, 255, 0);
     margin-top: 10%;
-    font-size: 20px;
+    font-size: 20px;  
 }
 
 .rating {
@@ -152,7 +152,7 @@ button.paypal {
   background-image:url('../img/5.gif');
   background-size: cover;             
   background-position: center;               
-  height: 107.5vh; 
+  height: 118vh; 
    /* .desenfoque {
   position: absolute;
   top: 0;
@@ -179,4 +179,118 @@ button.paypal {
   backdrop-filter: blur(2px);
   background: rgba(0, 0, 0, 0.3); 
 } */
+}
+
+.fondored{
+  font-family:"Pixelify Sans";
+  background-image:url('../img/red.gif');
+  background-size: cover;             
+  background-position: center;               
+  height: 109vh; 
+   /* .desenfoque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3); 
+} */
+}
+
+.fondofifa{
+  font-family:"Pixelify Sans";
+  background-image:url('../img/fifa25.gif');
+  background-size: cover;             
+  background-position: center;               
+  height: 107.5vh; 
+   /* .desenfoque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3); 
+} */
+}
+
+.fondoelden{
+  font-family:"Pixelify Sans";
+  background-image:url('../img/elden.gif');
+  background-size: cover;             
+  background-position: center;               
+  height: 107.5vh; 
+   /* .desenfoque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3); 
+} */
+}
+
+.fondolega{
+  font-family:"Pixelify Sans";
+  background-image:url('../img/howarts.gif');
+  background-size: cover;             
+  background-position: center;               
+  height: 114vh; 
+   /* .desenfoque {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.3); 
+} */
+}
+
+
+#footer1{
+  margin-top: 100%;
+}
+
+#video{
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: 32px;
+}
+
+#videog{
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: -19%;
+
+}
+
+#videolas{
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: -2%;
+}
+
+#videoelde{
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: -24%;
+}
+
+#videofc{
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: -12%;
+}
+#videored{
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: -13%;
+}
+#videolega{
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-top: -24.5%;
 }
