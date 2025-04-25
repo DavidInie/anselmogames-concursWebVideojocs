@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.main-content {
+    width: 70%;
+}
+
+
+.sidebar {
+    width: 10%; /* Reduce el ancho del sidebar */
+    background-color: #fff;
+    height: 50px; /* Reduce la altura del sidebar */
+    padding: 15px; /* Ajusta el padding si es necesario */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.main-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+
+.rating {
+    font-size: 18px;
+    color: #ffaa00;
+}
+
+
+.info p {
+    margin: 10px 0;
+}
+
+
+.desc {
+    margin-top: 20px;
+    color: #555;
+}
+
+
+.vendor-box {
+    text-align: center;
+}
+
+
+.vendor-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.price p {
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0;
+}
+
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+button.paypal {
+    background-color: #ffc439;
+    color: #000;
+}
+
+
+.note {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.more-offers {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.carousel {
+    max-width: 50%; /* Reduce el ancho al 50% */
+    margin: 0 auto; /* Centra el carrusel */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.carousel-inner {
+    width: 50%;
+    height: 50%; /* Altura fija del slider */
+}
+
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho del carrusel */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    object-fit: cover;
+}
+
+
+@media (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-image {
+        width: 80%; /* Reduce el tamaño de la imagen */
+        height: auto;
+    }
+
+    .info {
+        padding: 10px;
+    }
+
+    .sidebar {
+        width: 90%; /* Ocupa casi todo el ancho en pantallas pequeñas */
+        height: auto; /* Ajusta la altura automáticamente */
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .vendor-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vendor-logo {
+        width: 50%; /* Ajusta el tamaño del logo */
+        height: auto;
+    }
+
+    .price button {
+        width: 80%; /* Botones más pequeños */
+        margin: 5px 0;
+    }
+
+    .desc {
+        text-align: justify;    
+    }
+}
+
