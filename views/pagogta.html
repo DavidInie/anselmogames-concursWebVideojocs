@@ -68,7 +68,14 @@
   
   
               <div class="text-center mt-4">
-                <button class="btn btn-primary" onclick="alert('✅ Compra realizada con éxito!'); location.href='index.html';">Comprar</button>
+                <button type="button" class="btn btn-primary" onclick="realizarCompra()">Comprar</button>
+            
+              <script>
+                function realizarCompra() {
+                alert('✅ Compra realizada con éxito!');
+                location.href = 'index.html';
+              }
+            </script>
               </div>
             </form>
           </div>

@@ -99,3 +99,39 @@ body {
     color: rgb(0, 0, 0);
     font-size: 23px ;
   }
+
+  #img2{
+    margin-top: 25px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+    width: 98%;
+    border-radius: 7%; /* Hace que la imagen sea circular */
+    box-shadow: 0 8px 16px rgba(217, 0, 255, 0.7); /* Sombra inicial */
+    transition: transform 0.3s ease; /* Transición suave para el efecto */
+  }
+
+  #POPU1{
+    margin-top: 30px; /* Ajusta este valor para subir el texto */
+    text-shadow: 0 0 5px rgb(0, 89, 253), 
+                 0 0 10px rgba(77, 139, 255, 0.816), 
+                 0 0 15px rgba(133, 206, 255, 0.689); 
+    font-size: 38px;
+    font-family: "Bungee Spice";
+    
+  }
+
+  #img3{
+    margin-top: 25px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+    width: 80%;
+    border-radius: 7%; /* Hace que la imagen sea circular */
+    box-shadow: 0 8px 16px rgba(217, 0, 255, 0.7); /* Sombra inicial */
+    transition: transform 0.3s ease; /* Transición suave para el efecto */
+  }
+  #img4{
+    margin-top: 25px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+    width: 100%;
+    border-radius: 7%; /* Hace que la imagen sea circular */
+    box-shadow: 0 8px 16px rgba(217, 0, 255, 0.7); /* Sombra inicial */
+    transition: transform 0.3s ease; /* Transición suave para el efecto */
+  }
